@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#fff1f5" />
+  <meta name="description" content="Um cantinho especial para guardar a nossa história de amor." />
+  <title>Marcos & Gabriella | Nosso cantinho ♡</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body class="intro-open">
+  <div class="intro-screen" id="introScreen" role="dialog" aria-modal="true" aria-labelledby="introTitle">
+    <div class="intro-content">
+      <div class="intro-heart" aria-hidden="true">♡</div>
+      <span class="eyebrow">UMA SURPRESA PARA VOCÊ</span>
+      <h1 id="introTitle">Gabriella, meu amor...</h1>
+      <p>Preparei um cantinho só nosso, cheio de lembranças e carinho. Coloca seus fones e vem comigo? ♡</p>
+      <button class="btn btn-primary" id="enterMemorial">Abrir minha surpresa ♡</button>
+      <small>Ao entrar, nossa música começa a tocar ♫</small>
+    </div>
+  </div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+  <header class="header">
+    <a href="#inicio" class="brand">M <span>♡</span> G</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="navigation" aria-label="Navegação principal">
+      <a href="#historia">Nossa história</a><a href="#momentos">Momentos</a><a href="#musica">Nossa música</a><a
+        href="#carta">Cartinha</a><a href="#surpresa">Surpresa</a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="hero section">
+      <div class="hero-glow"></div>
+      <div class="hero-content reveal">
+        <span class="eyebrow">UM PEDACINHO DO MEU CORAÇÃO</span>
+        <div class="hero-heart" aria-hidden="true">♡</div>
+        <h1>Marcos <em>&</em> Gabriella</h1>
+        <p class="hero-lead">Entre tantas histórias no mundo, a minha favorita é a que estou escrevendo com você.</p>
+        <div class="divider-flower" aria-hidden="true">✿ &nbsp; ♡ &nbsp; ✿</div>
+        <a class="btn btn-primary" href="#historia">Vem conhecer nossa história <span>♡</span></a>
+      </div>
+      <div class="scroll-hint">Role para descobrir <span>↓</span></div>
+    </section>
+
+    <section class="section countdown-wrap" aria-labelledby="countdownTitle">
+      <div class="section-heading reveal"><span class="eyebrow">CADA SEGUNDO VALE A PENA</span>
+        <h2 id="countdownTitle">O tempo desde que nós viramos <em>nós</em></h2>
+        <p>Desde 13 de agosto de 2026, meu mundo tem um brilho diferente.</p>
+      </div>
+      <div class="countdown reveal" role="timer" aria-label="Tempo juntos">
+        <div class="time-card"><strong id="days">0</strong><span>dias</span></div>
+        <div class="time-card"><strong id="hours">00</strong><span>horas</span></div>
+        <div class="time-card"><strong id="minutes">00</strong><span>minutos</span></div>
+        <div class="time-card"><strong id="seconds">00</strong><span>segundos</span></div>
+      </div>
+      <p class="tiny-note">E eu quero continuar contando muitos e muitos dias ao seu lado. ♡</p>
+    </section>
+
+    <section id="historia" class="section story-section">
+      <div class="section-heading reveal"><span class="eyebrow">DO ACASO AO INFINITO</span>
+        <h2>A nossa <em>história</em></h2>
+        <p>As melhores histórias começam quando a gente menos espera.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot">♡</div>
+          <div class="timeline-card"><span class="timeline-date">O começo</span>
+            <h3>Quando tudo era só uma conversa...</h3>
+            <p>Quem diria que, entre conversas e momentos simples, você começaria a ocupar um espaço tão grande no meu
+              coração?</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot">✿</div>
+          <div class="timeline-card"><span class="timeline-date">Um momento inesquecível</span>
+            <h3>Aquele dia em Liberty</h3>
+            <p>Depois daquele momento em que ficamos juntos no cemitério de Liberty, algo mudou em mim. Eu comecei a
+              perceber que o que sentia por você era diferente de tudo que já tinha sentido.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot">♡</div>
+          <div class="timeline-card"><span class="timeline-date">13 de agosto de 2026</span>
+            <h3>O nosso primeiro dia</h3>
+            <p>O dia em que a nossa história ganhou um novo capítulo. Desde então, até os dias mais comuns se tornaram
+              especiais porque tenho você.</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot">✧</div>
+          <div class="timeline-card"><span class="timeline-date">E todos os dias que virão</span>
+            <h3>Ainda temos tanto para viver...</h3>
+            <p>Quero continuar colecionando risadas, conversas de madrugada, carinho e lembranças. O melhor da nossa
+              história é que ela ainda está sendo escrita.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="momentos" class="section gallery-section">
+      <div class="section-heading reveal"><span class="eyebrow">PEQUENOS INSTANTES, GRANDES SENTIMENTOS</span>
+        <h2>Nossos <em>momentos</em></h2>
+        <p>Algumas lembranças merecem morar para sempre no coração.</p>
+      </div>
+      <div class="gallery">
+        <button class="polaroid reveal" data-photo="1" data-caption="O meu lugar favorito sempre vai ser com você.">
+          <div class="photo-frame"><img src="assets/foto1.png" alt="Nossa primeira foto especial" loading="lazy"
+              onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" /><span
+              class="photo-placeholder">♡<small>Nosso momento 1</small></span></div><span class="polaroid-caption">Nosso
+            beijo ♡</span>
+        </button>
+        <button class="polaroid reveal" data-photo="2"
+          data-caption="Toda lembrança fica mais bonita quando é ao seu lado.">
+          <div class="photo-frame"><img src="assets/foto2.png" alt="Mais uma lembrança nossa" loading="lazy"
+              onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" /><span
+              class="photo-placeholder">✿<small>Nosso momento 2</small></span></div><span class="polaroid-caption">Nós
+            dois, sempre ✿</span>
+        </button>
+        <button class="polaroid reveal" data-photo="3"
+          data-caption="Quero guardar para sempre esse jeitinho que me encanta.">
+          <div class="photo-frame"><img src="assets/foto3.png" alt="Um sorriso para guardar" loading="lazy"
+              onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" /><span
+              class="photo-placeholder">♡<small>Nosso momento 3</small></span></div><span class="polaroid-caption">Seu
+            olhar ♡</span>
+        </button>
+        <button class="polaroid reveal" data-photo="4"
+          data-caption="Ainda vamos viver e guardar muitas memórias lindas juntos.">
+          <div class="photo-frame"><img src="assets/foto4.png" alt="Uma lembrança especial" loading="lazy"
+              onerror="this.style.display='none';this.parentElement.classList.add('no-photo')" /><span
+              class="photo-placeholder">✧<small>Nosso momento 4</small></span></div><span class="polaroid-caption">Nosso
+            momento ✧</span>
+        </button>
+      </div>
+      <p class="gallery-tip">Toque em uma foto para vê-la de pertinho.</p>
+    </section>
+
+    <section id="musica" class="section song-section">
+      <div class="section-heading reveal"><span class="eyebrow">A TRILHA SONORA DO NOSSO AMOR</span>
+        <h2>A nossa <em>música</em></h2>
+        <p>Uma música que agora também faz parte desse cantinho só nosso.</p>
+      </div>
+      <div class="spotify-card reveal">
+        <div class="spotify-cover-wrap">
+          <img class="spotify-cover" src="assets/cover.png" alt="Foto de Marcos e Gabriella" loading="lazy" />
+        </div>
+        <div class="spotify-info">
+          <div class="spotify-badge">♪ inspirado no Spotify</div>
+          <h3 id="trackTitle">Nossa Música</h3>
+          <p class="spotify-subtitle">Marcos &amp; Gabriella</p>
+          <p class="spotify-description">Dá o play e deixa essa lembrança tocar junto com cada pedacinho da nossa
+            história. ♡</p>
+          <div class="spotify-controls">
+            <button class="spotify-play" id="spotifyPlay" aria-label="Tocar nossa música">▶</button>
+            <div class="spotify-progress-wrap">
+              <div class="spotify-progress"><span id="progressBar"></span></div>
+              <div class="spotify-times"><span id="currentTime">0:00</span><span id="durationTime">0:00</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carta" class="section letter-section">
+      <div class="section-heading reveal"><span class="eyebrow">PALAVRAS QUE VÊM DO CORAÇÃO</span>
+        <h2>Uma cartinha <em>para você</em></h2>
+        <p>Tem coisas que eu nem sempre consigo dizer em voz alta...</p>
+      </div>
+      <button class="envelope reveal" id="openLetter" aria-haspopup="dialog" aria-label="Abrir a carta de amor"><span
+          class="envelope-back"></span><span class="envelope-flap"></span><span class="envelope-front"></span><span
+          class="envelope-seal">♡</span></button>
+      <p class="envelope-hint">Clique no envelope, meu amor ♡</p>
+    </section>
+
+    <section class="section reasons-section">
+      <div class="section-heading reveal"><span class="eyebrow">DENTRE MIL RAZÕES</span>
+        <h2>Algumas coisas que eu <em>amo em você</em></h2>
+      </div>
+      <div class="reasons-grid">
+        <div class="reason reveal"><span>01 ✿</span>
+          <h3>Sua voz</h3>
+          <p>Que tem o dom de me deixar tranquilo até nos dias mais difíceis.</p>
+        </div>
+        <div class="reason reveal"><span>02 ♡</span>
+          <h3>Seu jeitinho</h3>
+          <p>O modo como você me trata e faz eu me sentir tão especial.</p>
+        </div>
+        <div class="reason reveal"><span>03 ✧</span>
+          <h3>Seu carinho</h3>
+          <p>Porque até de longe você consegue fazer eu me sentir pertinho.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="surpresa" class="section surprise-section">
+      <div class="surprise-inner reveal"><span class="eyebrow">SÓ MAIS UMA COISINHA...</span>
+        <h2>Se eu pudesse fazer um pedido...</h2>
+        <p>Eu pediria mais uma vida. Só para ter mais tempo de amar você.</p><button id="surpriseBtn"
+          class="btn btn-primary">Tenho uma surpresa para você ♡</button>
+        <div class="surprise-message" id="surpriseMessage" aria-live="polite">
+          <div class="big-heart">♥</div>
+          <h3>Eu te escolheria em todas as vidas.</h3>
+          <p>Ontem, hoje, amanhã e em cada recomeço. Você é o meu amor, Gabriella. ♡</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Feito com todo o amor do mundo, só para você, Gabriella. ♡</p><span>Marcos & Gabriella • Nossa história não tem
+      fim</span>
+  </footer>
+
+  <audio id="ourSong" preload="auto" loop src="assets/nossa-musica.mp3"></audio>
+
+  <div class="modal" id="letterModal" role="dialog" aria-modal="true" aria-labelledby="letterTitle" hidden>
+    <div class="modal-overlay" data-close="letter"></div>
+    <div class="modal-paper" tabindex="-1"><button class="close-btn" data-close="letter"
+        aria-label="Fechar carta">×</button><span class="eyebrow">PARA O AMOR DA MINHA VIDA</span>
+      <h2 id="letterTitle">Minha Gabriella, ♡</h2>
+      <div class="letter-copy">
+        <p>Às vezes eu paro para pensar em como tudo começou. A gente foi se aproximando sem nem perceber, e, de
+          repente, você se tornou uma das partes mais bonitas dos meus dias.</p>
+        <p>Você sabe que eu nem sempre fui de falar muito. Sempre gostei de ficar mais na minha. Mas, com você, as
+          coisas são diferentes. Sua voz me acalma, seu carinho me faz bem e seu jeitinho me conquistou de uma maneira
+          que eu nunca tinha sentido antes.</p>
+        <p>Eu guardo com muito carinho aquele nosso momento em Liberty. Foi ali que comecei a entender que o que eu
+          sentia por você estava se tornando algo muito especial. E quanto mais eu te conhecia, mais eu queria estar
+          perto.</p>
+        <p>Quero te amar nos dias leves e nos difíceis, nas risadas e nos silêncios, de perto e de longe. Quero
+          continuar construindo uma história bonita com você, um dia de cada vez.</p>
+        <p>Obrigado por ser você. E obrigado por deixar eu fazer parte da sua vida.</p>
+        <p class="letter-signature">Com todo o meu amor,<br /><strong>Marcos ♡</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="modal photo-modal" id="photoModal" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <div class="modal-overlay" data-close="photo"></div>
+    <div class="photo-modal-content" tabindex="-1"><button class="close-btn" data-close="photo"
+        aria-label="Fechar foto">×</button><img id="largePhoto" alt="Nossa lembrança ampliada" />
+      <p id="largeCaption"></p>
+    </div>
+  </div>
+</body>
+
+</html>

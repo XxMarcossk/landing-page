@@ -1,0 +1,11 @@
+MEMORIAL GABRIELLA - VERSÃO PRONTA PARA PUBLICAR
+
+Esta versão já vem com:
+- 4 fotos preenchidas na galeria
+- música integrada em assets/nossa-musica.mp3
+- card de música inspirado no Spotify
+
+Para publicar:
+1. Entre em https://app.netlify.com/drop
+2. Arraste a pasta inteira memorial_gabriella_spotify
+3. Copie o link gerado e envie para a Gabriella
